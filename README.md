@@ -1,11 +1,9 @@
 # vue-capacitor-demo
 
-## Project setup
-```
-yarn install
-```
+## Capacitor For Android/iOS setup
 
-## Capacitor For Android/iOS/Electron setup
+このプロジェクトをCapacitor対応にセットアップして、AndroidとiOSのプロジェクトを作る方法
+
 ```sh
 $ sudo npm install -g @vue/cli
 $ vue create vue-capacitor-demo
@@ -63,7 +61,10 @@ $ npx cap open ios # XCodeを開く
 
 https://www.smashingmagazine.com/2018/07/mobile-apps-capacitor-vue-js/
 
-## Capacitor For Web setup
+## Capacitor For Web Startup
+
+このプロジェクトをCapacitorのWebで起動する方法
+
 ```sh
 $ yarn build
 $ npx cap copy web
@@ -75,6 +76,9 @@ $ sudo npx cap serve
 https://capacitor.ionicframework.com/docs/web
 
 ## Capacitor For Electron setup
+
+このプロジェクトをCapacitorのElectronで起動する方法
+
 ```sh
 $ yarn build:electron
 $ npx cap add electron
@@ -85,6 +89,11 @@ $ npx cap open electron
 下記の公式を参考にした
 
 https://capacitor.ionicframework.com/docs/electron
+
+## Project setup
+```
+yarn install
+```
 
 ### Compiles and hot-reloads for development
 ```
