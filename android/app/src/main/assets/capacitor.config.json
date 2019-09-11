@@ -1,0 +1,7 @@
+{
+  "appId": "jp.kght6123.vuecapacitordemo",
+  "appName": "VueCapacitorDemo",
+  "bundledWebRuntime": true,
+  "npmClient": "yarn",
+  "webDir": "dist"
+}
